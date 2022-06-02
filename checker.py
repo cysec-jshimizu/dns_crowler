@@ -18,9 +18,9 @@ def check_spf(record: str) -> check_result:
     for ip in ip_list:
         redirect = re.findall(r"redirect=(\w.+)", ip)
         if redirect:
-            r2 = dns.get_record(redirect[0])
+            r2 = dns.dig_record(redirect[0])
             for r in r2:
-                return check_spf(r["data"])
+                return check_spf(r)
 
     result.existance = True
     if "-all" in ip_list:

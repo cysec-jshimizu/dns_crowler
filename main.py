@@ -3,20 +3,20 @@ import dns
 
 
 def has_spf(domain: str) -> checker.check_result:
-    record = dns.get_record(domain)
+    record = dns.dig_record(domain)
     result = checker.check_result()
     for r in record:
-        result = checker.check_spf(r["data"])
+        result = checker.check_spf(r)
         if result.existance:
             return result
     return result
 
 
 def has_dmarc(domain: str) -> checker.check_result:
-    record = dns.get_record("_dmarc." + domain)
+    record = dns.dig_record("_dmarc." + domain)
     result = checker.check_result()
     for r in record:
-        result = checker.check_dmarc(r["data"])
+        result = checker.check_dmarc(r)
         if result.existance:
             return result
     return result
