@@ -1,46 +1,41 @@
-import requests
-
 import checker
+import dns
 
 
-def get_record(domain: str) -> list:
-    doh_url = "https://dns.google.com/resolve?name={}&type=txt"
-    res = requests.get(doh_url.format(domain))
-    ans = []
-    try:
-        if res.ok:
-            res_j = res.json()
-            if "Answer" not in res_j:
-                raise Exception("no txt record for" + domain)
-            for i in res_j["Answer"]:
-                ans.append(i)
-            return ans
-        else:
-            raise Exception("Failed to get record for" + domain)
-    except Exception as e:
-        print(e)
-        return []
-
-
-def has_spf(domain: str) -> bool:
-    record = get_record(domain)
+def has_spf(domain: str) -> checker.check_result:
+    record = dns.get_record(domain)
+    result = checker.check_result()
     for r in record:
-        if checker.check_spf(r["data"]):
-            return True
-    return False
+        result = checker.check_spf(r["data"])
+        if result.existance:
+            return result
+    return result
 
 
-def has_dmarc(domain: str) -> bool:
-    record = get_record("_dmarc." + domain)
+def has_dmarc(domain: str) -> checker.check_result:
+    record = dns.get_record("_dmarc." + domain)
+    result = checker.check_result()
     for r in record:
-        if checker.check_dmarc(r["data"]):
-            return True
-    return False
+        result = checker.check_dmarc(r["data"])
+        if result.existance:
+            return result
+    return result
 
 
-DEBUG = True
-if DEBUG:
-    domain = "google.com"
-    domain = "example.com"
+RESULT_FORMAT = "{domain}\tSPF: {spf}({spf_policy})\tDMARC: {dmarc}({dmarc_policy})\n"
+with open("./domain_list.txt", "r") as f:
+    domains = f.read().splitlines()
 
-print(has_spf(domain), has_dmarc(domain))
+data = ""
+for domain in domains:
+    spf_result = has_spf(domain)
+    dmarc_result = has_dmarc(domain)
+    data += RESULT_FORMAT.format(
+        domain=domain,
+        spf=spf_result.existance,
+        spf_policy=spf_result.policy,
+        dmarc=dmarc_result.existance,
+        dmarc_policy=dmarc_result.policy
+    )
+    with open("./temp.txt", "w") as f:
+        f.write(data)

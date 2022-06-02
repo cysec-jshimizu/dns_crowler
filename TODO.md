@@ -2,8 +2,8 @@
 レコードの文法チェック
 ## spf
 - v
+- redirect
 ## dmarc
-セミコロンでsplit
 - v
   - version
 - pct
@@ -22,4 +22,9 @@
   - Alignment mode for SPF
 
 # main.py
-レコードの重複は無に等しい
+- レコードの重複は無に等しい
+- 最終的に各ドメインがSPF, DMARCに対応しているか，また対応しているならポリシーが厳格かどうかを取得したい
+- mxドメインに対しても実行する必要がある
+
+# domain_list.txt
+- 改行区切りでdomainを羅列
