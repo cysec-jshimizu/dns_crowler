@@ -15,23 +15,36 @@ def check_spf(record: str) -> check_result:
         result.existance = False
         return result
     ip_list = record[7:].split(" ")
+    policies = []
     for ip in ip_list:
         redirect = re.findall(r"redirect=(\w.+)", ip)
+        include_spf = re.findall(r"include:(\w.+)", ip)
         if redirect:
-            r2 = dns.dig_record(redirect[0])
-            for r in r2:
+            redirect_records = dns.txt_record(redirect[0])
+            for r in redirect_records:
                 return check_spf(r)
+        elif include_spf:
+            include_records = dns.txt_record(include_spf[0])
+            for r in include_records:
+                try:
+                    included_spf_status = check_spf(r)
+                except:
+                    included_spf_status.policy = "0invalid"
+                if included_spf_status.policy != "":
+                    policies.append(included_spf_status.policy)
 
     result.existance = True
     if "-all" in ip_list:
-        result.policy = "strict"
+        policies.append("4strict")
     elif "~all" in ip_list:
-        result.policy = "relax"
+        policies.append("3relax")
     elif "?all" in ip_list:
-        result.policy = "newtral"
+        policies.append("2newtral")
     elif "+all" in ip_list:
-        result.policy = "pass"
+        policies.append("1pass")
 
+    if len(policies) > 0:
+        result.policy = sorted(policies)[0]
     return result
 
 
@@ -44,13 +57,13 @@ def check_dmarc(record: str) -> check_result:
         record = record[:-1]
 
     for i in re.split(r";\s?", record):
-        temp = i.split("=", maxsplit=1)
-        if temp[0] not in TAG_NAMES:
+        splitted = i.split("=", maxsplit=1)
+        if splitted[0] not in TAG_NAMES:
             # using invalid tag name
             result.existance = False
             return result
 
-        record_dict[temp[0]] = temp[1]
+        record_dict[splitted[0]] = splitted[1]
 
     if record_dict["v"] != "DMARC1":
         result.existance = False
@@ -69,9 +82,3 @@ def check_dmarc(record: str) -> check_result:
 
     result.existance = True
     return result
-
-
-if __name__ == "__main__":
-    print(check_spf("v=spf1 redirect=_spf.mail.ru").policy)
-    print(check_spf("v=spf1 include:_spf.google.com ~all"))
-    print(check_dmarc("v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com"))
