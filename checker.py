@@ -39,7 +39,7 @@ def check_spf(record: str) -> check_result:
     elif "~all" in ip_list:
         policies.append("3relax")
     elif "?all" in ip_list:
-        policies.append("2newtral")
+        policies.append("2neutral")
     elif "+all" in ip_list:
         policies.append("1pass")
 
