@@ -1172,7 +1172,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 224243,静岡県,吉田町,town.yoshida.shizuoka.jp,True,relax,False,,smtp02.siscs.jp,False,,False,
 224294,静岡県,川根本町,town.kawanehon.shizuoka.jp,False,,False,,,,,,
 224618,静岡県,森町,town.morimachi.shizuoka.jp,True,relax,False,,mx.mail.ctc.jp,False,,False,
-231002,愛知県,名古屋市,city.nagoya.jp,True,,False,,,,,,
+231002,愛知県,名古屋市,city.nagoya.jp,True,newtral,False,,,,,,
 232017,愛知県,豊橋市,city.toyohashi.lg.jp,True,relax,False,,alt3.ap.email.fireeyecloud.com,False,,False,
 232017,愛知県,豊橋市,city.toyohashi.lg.jp,True,relax,False,,alt1.ap.email.fireeyecloud.com,False,,False,
 232017,愛知県,豊橋市,city.toyohashi.lg.jp,True,relax,False,,alt2.ap.email.fireeyecloud.com,False,,False,
