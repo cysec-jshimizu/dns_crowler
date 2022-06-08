@@ -62,3 +62,7 @@ for i, localgov in enumerate(domains):
             writer.writerows(arr)
 
         arr = []
+
+with open("./mail_sec.csv", "a") as f:
+    writer = csv.writer(f)
+    writer.writerows(arr)
