@@ -1,4 +1,5 @@
 lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_policy,mx_dmarc,mx_dmarc_policy
+010006,北海道,,pref.hokkaido.lg.jp
 011002,北海道,札幌市,city.sapporo.jp
 012025,北海道,函館市,city.hakodate.hokkaido.jp
 012033,北海道,小樽市,city.otaru.lg.jp
@@ -178,6 +179,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 016926,北海道,中標津町,nakashibetsu.jp
 016934,北海道,標津町,shibetsutown.jp
 016942,北海道,羅臼町,rausu-town.jp
+020001,青森県,,pref.aomori.lg.jp
 022012,青森県,青森市,city.aomori.aomori.jp
 022021,青森県,弘前市,city.hirosaki.aomori.jp
 022039,青森県,八戸市,city.hachinohe.aomori.jp
@@ -218,6 +220,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 024457,青森県,南部町,town.aomori-nanbu.lg.jp
 024465,青森県,階上町,town.hashikami.lg.jp
 024503,青森県,新郷村,vill.shingo.aomori.jp
+030007,岩手県,,pref.iwate.jp
 032018,岩手県,盛岡市,city.morioka.iwate.jp
 032026,岩手県,宮古市,city.miyako.iwate.jp
 032034,岩手県,大船渡市,city.ofunato.iwate.jp
@@ -251,6 +254,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 035068,岩手県,九戸村,vill.kunohe.iwate.jp
 035076,岩手県,洋野町,town.hirono.iwate.jp
 035246,岩手県,一戸町,town.ichinohe.iwate.jp
+040002,宮城県,,pref.miyagi.jp
 041009,宮城県,仙台市,city.sendai.jp
 042021,宮城県,石巻市,city.ishinomaki.lg.jp
 042030,宮城県,塩竈市,city.shiogama.miyagi.jp
@@ -286,6 +290,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 045055,宮城県,美里町,town.misato.miyagi.jp
 045811,宮城県,女川町,town.onagawa.miyagi.jp
 046060,宮城県,南三陸町,town.minamisanriku.miyagi.jp
+050008,秋田県,,pref.akita.lg.jp
 052019,秋田県,秋田市,city.akita.lg.jp
 052027,秋田県,能代市,city.noshiro.lg.jp
 052035,秋田県,横手市,city.yokote.lg.jp
@@ -311,6 +316,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 054348,秋田県,美郷町,town.misato.akita.jp
 054631,秋田県,羽後町,town.ugo.lg.jp
 054640,秋田県,東成瀬村,higashinaruse.com
+060003,山形県,,pref.yamagata.jp
 062014,山形県,山形市,city.yamagata-yamagata.lg.jp
 062022,山形県,米沢市,city.yonezawa.yamagata.jp
 062031,山形県,鶴岡市,city.tsuruoka.lg.jp
@@ -346,6 +352,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 064262,山形県,三川町,town.mikawa.yamagata.jp
 064289,山形県,庄内町,town.shonai.lg.jp
 064611,山形県,遊佐町,town.yuza.yamagata.jp
+070009,福島県,,pref.fukushima.jp
 072010,福島県,福島市,city.fukushima.fukushima.jp
 072028,福島県,会津若松市,city.aizuwakamatsu.fukushima.jp
 072036,福島県,郡山市,city.koriyama.lg.jp
@@ -405,6 +412,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 075485,福島県,葛尾村,katsurao.org
 075612,福島県,新地町,shinchi-town.jp
 075647,福島県,飯舘村,vill.iitate.fukushima.jp
+080004,茨城県,,pref.ibaraki.jp
 082015,茨城県,水戸市,city.mito.lg.jp
 082023,茨城県,日立市,city.hitachi.lg.jp
 082031,茨城県,土浦市,city.tsuchiura.lg.jp
@@ -449,6 +457,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 085421,茨城県,五霞町,town.goka.lg.jp
 085464,茨城県,境町,town.ibaraki-sakai.lg.jp
 085642,茨城県,利根町,town.tone.ibaraki.jp
+090000,栃木県,,pref.tochigi.lg.jp
 092011,栃木県,宇都宮市,city.utsunomiya.tochigi.jp
 092029,栃木県,足利市,city.ashikaga.tochigi.jp
 092037,栃木県,栃木市,city.tochigi.lg.jp
@@ -474,6 +483,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 093866,栃木県,高根沢町,town.takanezawa.tochigi.jp
 094072,栃木県,那須町,town.nasu.lg.jp
 094111,栃木県,那珂川町,town.tochigi-nakagawa.lg.jp
+100005,群馬県,,pref.gunma.jp
 102016,群馬県,前橋市,city.maebashi.gunma.jp
 102024,群馬県,高崎市,city.takasaki.gunma.jp
 102032,群馬県,桐生市,city.kiryu.lg.jp
@@ -509,6 +519,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 105236,群馬県,千代田町,town.chiyoda.gunma.jp
 105244,群馬県,大泉町,town.oizumi.gunma.jp
 105252,群馬県,邑楽町,town.ora.gunma.jp
+110001,埼玉県,,pref.saitama.lg.jp
 111007,埼玉県,さいたま市,city.saitama.jp
 112011,埼玉県,川越市,city.kawagoe.saitama.jp
 112020,埼玉県,熊谷市,city.kumagaya.lg.jp
@@ -572,6 +583,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 114421,埼玉県,宮代町,town.miyashiro.lg.jp
 114642,埼玉県,杉戸町,town.sugito.lg.jp
 114651,埼玉県,松伏町,town.matsubushi.lg.jp
+120006,千葉県,,pref.chiba.lg.jp
 121002,千葉県,千葉市,city.chiba.jp
 122025,千葉県,銚子市,city.choshi.chiba.jp
 122033,千葉県,市川市,city.ichikawa.lg.jp
@@ -626,6 +638,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 124419,千葉県,大多喜町,town.otaki.chiba.jp
 124435,千葉県,御宿町,town.onjuku.chiba.jp
 124630,千葉県,鋸南町,town.kyonan.chiba.jp
+130001,東京都,,metro.tokyo.jp
 131016,東京都,千代田区,city.chiyoda.lg.jp
 131024,東京都,中央区,city.chuo.lg.jp
 131032,東京都,港区,city.minato.tokyo.jp
@@ -688,6 +701,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 134015,東京都,八丈町,town.hachijo.tokyo.jp
 134023,東京都,青ヶ島村,vill.aogashima.tokyo.jp
 134210,東京都,小笠原村,vill.ogasawara.tokyo.jp
+140007,神奈川県,,pref.kanagawa.jp
 141003,神奈川県,横浜市,city.yokohama.lg.jp
 141305,神奈川県,川崎市,city.kawasaki.jp
 141500,神奈川県,相模原市,city.sagamihara.kanagawa.jp
@@ -721,6 +735,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 143847,神奈川県,湯河原町,town.yugawara.kanagawa.jp
 144011,神奈川県,愛川町,town.aikawa.kanagawa.jp
 144029,神奈川県,清川村,town.kiyokawa.kanagawa.jp
+150002,新潟県,,pref.niigata.lg.jp
 151009,新潟県,新潟市,city.niigata.lg.jp
 152021,新潟県,長岡市,city.nagaoka.niigata.jp
 152048,新潟県,三条市,city.sanjo.niigata.jp
@@ -751,6 +766,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 155047,新潟県,刈羽村,vill.kariwa.niigata.jp
 155811,新潟県,関川村,vill.sekikawa.niigata.jp
 155861,新潟県,粟島浦村,vill.awashimaura.lg.jp
+160008,富山県,,pref.toyama.jp
 162019,富山県,富山市,city.toyama.toyama.jp
 162027,富山県,高岡市,city.takaoka.toyama.jp
 162043,富山県,魚津市,city.uozu.toyama.jp
@@ -766,6 +782,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 163236,富山県,立山町,town.tateyama.toyama.jp
 163422,富山県,入善町,town.nyuzen.toyama.jp
 163431,富山県,朝日町,town.asahi.toyama.jp
+170003,石川県,,pref.ishikawa.lg.jp
 172014,石川県,金沢市,city.kanazawa.lg.jp
 172022,石川県,七尾市,city.nanao.lg.jp
 172031,石川県,小松市,city.komatsu.lg.jp
@@ -785,6 +802,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 174076,石川県,中能登町,town.nakanoto.ishikawa.jp
 174611,石川県,穴水町,town.anamizu.lg.jp
 174637,石川県,能登町,town.noto.lg.jp
+180009,福井県,,pref.fukui.lg.jp
 182010,福井県,福井市,city.fukui.lg.jp
 182028,福井県,敦賀市,city.tsuruga.lg.jp
 182044,福井県,小浜市,city.obama.fukui.jp
@@ -802,6 +820,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 184811,福井県,高浜町,town.takahama.fukui.jp
 184837,福井県,おおい町,town.ohi.fukui.jp
 185019,福井県,若狭町,town.fukui-wakasa.lg.jp
+190004,山梨県,,pref.yamanashi.jp
 192015,山梨県,甲府市,city.kofu.yamanashi.jp
 192023,山梨県,富士吉田市,city.fujiyoshida.yamanashi.jp
 192040,山梨県,都留市,city.tsuru.yamanashi.jp
@@ -829,6 +848,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 194301,山梨県,富士河口湖町,town.fujikawaguchiko.lg.jp
 194425,山梨県,小菅村,vill.kosuge.yamanashi.jp
 194433,山梨県,丹波山村,vill.tabayama.yamanashi.jp
+200000,長野県,,pref.nagano.lg.jp
 202011,長野県,長野市,city.nagano.nagano.jp
 202029,長野県,松本市,city.matsumoto.nagano.jp
 202037,長野県,上田市,city.ueda.nagano.jp
@@ -906,6 +926,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 205885,長野県,小川村,vill.ogawa.nagano.jp
 205907,長野県,飯綱町,town.iizuna.nagano.jp
 206024,長野県,栄村,vill.sakae.nagano.jp
+210005,岐阜県,,pref.gifu.lg.jp
 212016,岐阜県,岐阜市,city.gifu.lg.jp
 212024,岐阜県,大垣市,city.ogaki.lg.jp
 212032,岐阜県,高山市,city.takayama.lg.jp
@@ -948,6 +969,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 215074,岐阜県,東白川村,vill.higashishirakawa.gifu.jp
 215210,岐阜県,御嵩町,town.mitake.lg.jp
 216046,岐阜県,白川村,shirakawa-go.org
+220001,静岡県,,pref.shizuoka.jp
 221007,静岡県,静岡市,city.shizuoka.lg.jp
 221309,静岡県,浜松市,city.hamamatsu.shizuoka.jp
 222038,静岡県,沼津市,city.numazu.shizuoka.jp
@@ -983,6 +1005,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 224243,静岡県,吉田町,town.yoshida.shizuoka.jp
 224294,静岡県,川根本町,town.kawanehon.shizuoka.jp
 224618,静岡県,森町,town.morimachi.shizuoka.jp
+230006,愛知県,,pref.aichi.jp
 231002,愛知県,名古屋市,city.nagoya.jp
 232017,愛知県,豊橋市,city.toyohashi.lg.jp
 232025,愛知県,岡崎市,city.okazaki.lg.jp
@@ -1037,6 +1060,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 235610,愛知県,設楽町,town.shitara.lg.jp
 235628,愛知県,東栄町,town.toei.aichi.jp
 235636,愛知県,豊根村,vill.toyone.aichi.jp
+240001,三重県,,pref.mie.lg.jp
 242012,三重県,津市,info.city.tsu.mie.jp
 242021,三重県,四日市市,city.yokkaichi.lg.jp
 242039,三重県,伊勢市,city.ise.mie.jp
@@ -1066,6 +1090,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 245437,三重県,紀北町,town.mie-kihoku.lg.jp
 245615,三重県,御浜町,town.mihama.mie.jp
 245623,三重県,紀宝町,town.kiho.lg.jp
+250007,滋賀県,,pref.shiga.lg.jp
 252018,滋賀県,大津市,city.otsu.lg.jp
 252026,滋賀県,彦根市,city.hikone.lg.jp
 252034,滋賀県,長浜市,city.nagahama.lg.jp
@@ -1085,6 +1110,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 254410,滋賀県,豊郷町,town.toyosato.shiga.jp
 254428,滋賀県,甲良町,kouratown.jp
 254436,滋賀県,多賀町,town.taga.lg.jp
+260002,京都府,,pref.kyoto.jp
 261009,京都府,京都市,city.kyoto.lg.jp
 262013,京都府,福知山市,city.fukuchiyama.lg.jp
 262021,京都府,舞鶴市,city.maizuru.kyoto.jp
@@ -1111,6 +1137,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 264075,京都府,京丹波町,town.kyotamba.kyoto.jp
 264636,京都府,伊根町,town.ine.kyoto.jp
 264652,京都府,与謝野町,town.yosano.lg.jp
+270008,大阪府,,pref.osaka.jp
 271004,大阪府,大阪市,city.osaka.lg.jp
 271403,大阪府,堺市,city.sakai.lg.jp
 272027,大阪府,岸和田市,city.kishiwada.osaka.jp
@@ -1154,6 +1181,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 273813,大阪府,太子町,town.taishi.osaka.jp
 273821,大阪府,河南町,town.kanan.osaka.jp
 273830,大阪府,千早赤阪村,vill.chihayaakasaka.osaka.jp
+280003,兵庫県,,pref.hyogo.jp
 281000,兵庫県,神戸市,city.kobe.lg.jp
 282014,兵庫県,姫路市,city.himeji.lg.jp
 282022,兵庫県,尼崎市,city.amagasaki.hyogo.jp
@@ -1195,6 +1223,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 285013,兵庫県,佐用町,town.sayo.lg.jp
 285854,兵庫県,香美町,town.mikata-kami.lg.jp
 285862,兵庫県,新温泉町,town.shinonsen.hyogo.jp
+290009,奈良県,,pref.nara.jp
 292010,奈良県,奈良市,city.nara.lg.jp
 292028,奈良県,大和高田市,city.yamatotakada.nara.jp
 292036,奈良県,大和郡山市,city.yamatokoriyama.nara.jp
@@ -1234,6 +1263,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 294519,奈良県,上北山村,vill.kamikitayama.nara.jp
 294527,奈良県,川上村,vill.kawakami.nara.jp
 294535,奈良県,東吉野村,vill.higashiyoshino.nara.jp
+300004,和歌山県,,pref.wakayama.lg.jp
 302015,和歌山県,和歌山市,city.wakayama.wakayama.jp
 302023,和歌山県,海南市,city.kainan.lg.jp
 302031,和歌山県,橋本市,city.hashimoto.lg.jp
@@ -1264,6 +1294,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 304247,和歌山県,古座川町,town.kozagawa.wakayama.jp
 304271,和歌山県,北山村,vill.kitayama.wakayama.jp
 304280,和歌山県,串本町,town.kushimoto.wakayama.jp
+310000,鳥取県,,pref.tottori.lg.jp
 312011,鳥取県,鳥取市,city.tottori.lg.jp
 312029,鳥取県,米子市,city.yonago.lg.jp
 312037,鳥取県,倉吉市,city.kurayoshi.lg.jp
@@ -1283,6 +1314,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 314013,鳥取県,日南町,town.nichinan.lg.jp
 314021,鳥取県,日野町,town.hino.tottori.jp
 314030,鳥取県,江府町,town-kofu.jp
+320005,島根県,,pref.shimane.lg.jp
 322016,島根県,松江市,city.matsue.shimane.jp
 322024,島根県,浜田市,city.hamada.shimane.jp
 322032,島根県,出雲市,city.izumo.shimane.jp
@@ -1302,6 +1334,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 325261,島根県,西ノ島町,town.nishinoshima.shimane.jp
 325279,島根県,知夫村,vill.chibu.lg.jp
 325287,島根県,隠岐の島町,town.okinoshima.shimane.jp
+330001,岡山県,,pref.okayama.jp
 331007,岡山県,岡山市,city.okayama.jp
 332020,岡山県,倉敷市,city.kurashiki.okayama.jp
 332038,岡山県,津山市,city.tsuyama.lg.jp
@@ -1329,6 +1362,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 336637,岡山県,久米南町,town.kumenan.lg.jp
 336661,岡山県,美咲町,town.misaki.okayama.jp
 336815,岡山県,吉備中央町,town.kibichuo.lg.jp
+340006,広島県,,pref.hiroshima.lg.jp
 341002,広島県,広島市,city.hiroshima.lg.jp
 342025,広島県,呉市,city.kure.lg.jp
 342033,広島県,竹原市,city.takehara.lg.jp
@@ -1352,6 +1386,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 344311,広島県,大崎上島町,town.osakikamijima.hiroshima.jp
 344621,広島県,世羅町,town.sera.hiroshima.jp
 345458,広島県,神石高原町,jinsekigun.jp
+350001,山口県,,pref.yamaguchi.lg.jp
 352012,山口県,下関市,city.shimonoseki.lg.jp
 352021,山口県,宇部市,city.ube.yamaguchi.jp
 352039,山口県,山口市,city.yamaguchi.lg.jp
@@ -1371,6 +1406,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 353434,山口県,田布施町,town.tabuse.lg.jp
 353442,山口県,平生町,town.hirao.lg.jp
 355020,山口県,阿武町,town.abu.lg.jp
+360007,徳島県,,pref.tokushima.lg.jp
 362018,徳島県,徳島市,city.tokushima.tokushima.jp
 362026,徳島県,鳴門市,city.naruto.tokushima.jp
 362034,徳島県,小松島市,city.komatsushima.tokushima.jp
@@ -1395,6 +1431,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 364053,徳島県,上板町,townkamiita.jp
 364681,徳島県,つるぎ町,town.tokushima-tsurugi.lg.jp
 364894,徳島県,東みよし町,town.higashimiyoshi.lg.jp
+370002,香川県,,pref.kagawa.lg.jp
 372013,香川県,高松市,city.takamatsu.kagawa.jp
 372021,香川県,丸亀市,city.marugame.lg.jp
 372030,香川県,坂出市,city.sakaide.lg.jp
@@ -1412,6 +1449,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 374032,香川県,琴平町,town.kotohira.kagawa.jp
 374041,香川県,多度津町,town.tadotsu.kagawa.jp
 374067,香川県,まんのう町,town.manno.lg.jp
+380008,愛媛県,,pref.ehime.jp
 382019,愛媛県,松山市,city.matsuyama.ehime.jp
 382027,愛媛県,今治市,city.imabari.ehime.jp
 382035,愛媛県,宇和島市,city.uwajima.ehime.jp
@@ -1432,6 +1470,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 384844,愛媛県,松野町,town.matsuno.ehime.jp
 384887,愛媛県,鬼北町,town.kihoku.ehime.jp
 385069,愛媛県,愛南町,town.ainan.ehime.jp
+390003,高知県,,pref.kochi.lg.jp
 392014,高知県,高知市,city.kochi.kochi.jp
 392022,高知県,室戸市,city.muroto.kochi.jp
 392031,高知県,安芸市,city.aki.kochi.jp
@@ -1466,6 +1505,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 394246,高知県,大月町,town.otsuki.kochi.jp
 394271,高知県,三原村,vill.mihara.kochi.jp
 394289,高知県,黒潮町,town.kuroshio.lg.jp
+400009,福岡県,,pref.fukuoka.lg.jp
 401005,福岡県,北九州市,city.kitakyushu.lg.jp
 401307,福岡県,福岡市,city.fukuoka.lg.jp
 402028,福岡県,大牟田市,city.omuta.lg.jp
@@ -1526,6 +1566,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 406422,福岡県,吉富町,town.yoshitomi.lg.jp
 406465,福岡県,上毛町,town.koge.lg.jp
 406473,福岡県,築上町,town.chikujo.fukuoka.jp
+410004,佐賀県,,pref.saga.lg.jp
 412015,佐賀県,佐賀市,city.saga.lg.jp
 412023,佐賀県,唐津市,city.karatsu.lg.jp
 412031,佐賀県,鳥栖市,city.tosu.lg.jp
@@ -1546,6 +1587,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 414247,佐賀県,江北町,town.kouhoku.saga.jp
 414255,佐賀県,白石町,town.shiroishi.lg.jp
 414417,佐賀県,太良町,town.tara.lg.jp
+420000,長崎県,,pref.nagasaki.jp
 422011,長崎県,長崎市,city.nagasaki.lg.jp
 422029,長崎県,佐世保市,city.sasebo.lg.jp
 422037,長崎県,島原市,city.shimabara.lg.jp
@@ -1567,6 +1609,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 423831,長崎県,小値賀町,ojika.net
 423912,長崎県,佐々町,sazacho-nagasaki.jp
 424111,長崎県,新上五島町,official.shinkamigoto.net
+430005,熊本県,,pref.kumamoto.jp
 431001,熊本県,熊本市,city.kumamoto.jp
 432024,熊本県,八代市,city.yatsushiro.lg.jp
 432032,熊本県,人吉市,city.hitoyoshi.lg.jp
@@ -1612,6 +1655,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 435139,熊本県,球磨村,kumamura.com
 435147,熊本県,あさぎり町,town.asagiri.lg.jp
 435317,熊本県,苓北町,reihoku-kumamoto.jp
+440001,大分県,,pref.oita.jp
 442011,大分県,大分市,city.oita.oita.jp
 442020,大分県,別府市,city.beppu.oita.jp
 442038,大分県,中津市,city-nakatsu.jp
@@ -1630,6 +1674,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 443417,大分県,日出町,town.hiji.lg.jp
 444618,大分県,九重町,town.kokonoe.oita.jp
 444626,大分県,玖珠町,town.kusu.oita.jp
+450006,宮崎県,,pref.miyazaki.lg.jp
 452017,宮崎県,宮崎市,city.miyazaki.miyazaki.jp
 452025,宮崎県,都城市,city.miyakonojo.miyazaki.jp
 452033,宮崎県,延岡市,city.nobeoka.miyazaki.jp
@@ -1657,6 +1702,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 454427,宮崎県,日之影町,town.hinokage.lg.jp
 454435,宮崎県,五ヶ瀬町,town.gokase.miyazaki.jp
 462012,鹿児島県,鹿児島市,city.kagoshima.lg.jp
+460001,鹿児島県,,pref.kagoshima.jp
 462039,鹿児島県,鹿屋市,city.kanoya.lg.jp
 462047,鹿児島県,枕崎市,city.makurazaki.lg.jp
 462063,鹿児島県,阿久根市,city.akune.kagoshima.jp
@@ -1699,6 +1745,7 @@ lgcode,pref,city,domain,spf,spf_policy,dmarc,dmarc_policy,mx,mx_spf,mx_spf_polic
 465330,鹿児島県,和泊町,town.wadomari.lg.jp
 465348,鹿児島県,知名町,town.china.lg.jp
 465356,鹿児島県,与論町,yoron.jp
+470007,沖縄県,,pref.okinawa.jp
 472018,沖縄県,那覇市,city.naha.okinawa.jp
 472051,沖縄県,宜野湾市,city.ginowan.lg.jp
 472077,沖縄県,石垣市,city.ishigaki.okinawa.jp
